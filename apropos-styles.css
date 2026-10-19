@@ -1,0 +1,90 @@
+/* ========================================
+   STYLES POUR LA PAGE À PROPOS
+   Copiez ce code à la FIN de votre fichier style.css existant
+   ======================================== */
+
+/* Timeline pour parcours académique */
+.parcours {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.timeline {
+    max-width: 900px;
+    margin: 3rem auto 0;
+    position: relative;
+    padding-left: 50px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #2563eb;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: -38px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #2563eb;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px #2563eb;
+}
+
+.timeline-date {
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-content h3 {
+    color: #1f2937;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-location {
+    color: #6b7280;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.timeline-content p {
+    color: #6b7280;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* Section certifications (déjà stylée via .competences-grid) */
+.certifications {
+    background-color: #f9fafb;
+    padding: 60px 0;
+}
+
+/* Responsive pour la timeline */
+@media (max-width: 768px) {
+    .timeline {
+        padding-left: 30px;
+    }
+    
+    .timeline:before {
+        left: 10px;
+    }
+    
+    .timeline-item:before {
+        left: -28px;
+    }
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique - Portfolio BTS SIO SISR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio SIO SISR</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projets.html">Projets E5</a></li>
+                <li><a href="veille.html" class="active">Veille Technologique</a></li>
+                <li><a href="e6.html" class="active">E6</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Veille Technologique</h1>
+            <p>Suivi des évolutions et tendances dans le domaine de la cybersécurité</p>
+        </div>
+    </section>
+
+    <section class="veille-intro">
+        <div class="container">
+            <div class="veille-theme">
+                <h2>🔒 Thématique : La Cybersécurité</h2>
+                <p>
+                    Dans le cadre de ma formation en BTS SIO option SISR, j'ai choisi de me concentrer 
+                    sur la cybersécurité, un domaine en constante évolution et crucial pour la protection 
+                    des infrastructures informatiques.
+                </p>
+                <p>
+                    Cette veille me permet de rester informé des dernières menaces, vulnérabilités, 
+                    outils de protection et bonnes pratiques en matière de sécurité des systèmes et réseaux.
+                </p>
+            </div>
+
+            <div class="veille-sources">
+                <h3>📡 Mes sources de veille</h3>
+                <div class="sources-grid">
+                    <div class="source-card">
+                        <h4>Sites web</h4>
+                        <ul>
+                            <li>CERT-FR (ANSSI)</li>
+                            <li>The Hacker News</li>
+                            <li>Bleeping Computer</li>
+                            <li>Krebs on Security</li>
+                        </ul>
+                    </div>
+                    <div class="source-card">
+                        <h4>Réseaux sociaux</h4>
+                        <ul>
+                            <li>Twitter/X (experts en cybersec)</li>
+                            <li>LinkedIn (professionnels)</li>
+                            <li>Reddit (r/cybersecurity)</li>
+                        </ul>
+                    </div>
+                    <div class="source-card">
+                        <h4>Newsletters</h4>
+                        <ul>
+                            <li>SANS NewsBites</li>
+                            <li>Cyberveille ANSSI</li>
+                            <li>SecurityWeek</li>
+                        </ul>
+                    </div>
+                    <div class="source-card">
+                        <h4>Outils</h4>
+                        <ul>
+                            <li>Google Alerts</li>
+                            <li>Feedly (agrégateur RSS)</li>
+                            <li>CVE Details</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="veille-articles">
+        <div class="container">
+            <h2>📰 Articles récents de ma veille</h2>
+
+            <!-- Article 1 - EXEMPLE -->
+            <article class="veille-card">
+                <div class="veille-meta">
+                    <span class="veille-date">8 Février 2026</span>
+                    <span class="veille-category">Vulnérabilités</span>
+                </div>
+                <h3>Faille critique dans OpenSSH : CVE-2026-XXXX</h3>
+                <div class="veille-content">
+                    <p><strong>Source :</strong> CERT-FR, The Hacker News</p>
+                    
+                    <p><strong>Résumé :</strong></p>
+                    <p>
+                        Une vulnérabilité critique a été découverte dans OpenSSH versions 8.5 à 9.6, 
+                        permettant potentiellement une exécution de code à distance. Cette faille affecte 
+                        des millions de serveurs Linux dans le monde.
+                    </p>
+
+                    <p><strong>Analyse :</strong></p>
+                    <p>
+                        Cette découverte rappelle l'importance de maintenir les logiciels à jour, 
+                        particulièrement les services exposés sur Internet comme SSH. Les administrateurs 
+                        systèmes doivent appliquer les correctifs dès que possible et envisager des 
+                        mesures temporaires comme la limitation des accès SSH par IP.
+                    </p>
+
+                    <p><strong>Impact pour un administrateur SISR :</strong></p>
+                    <ul>
+                        <li>Audit immédiat de tous les serveurs utilisant OpenSSH</li>
+                        <li>Planification de la mise à jour vers la version corrigée</li>
+                        <li>Renforcement temporaire avec des règles de pare-feu</li>
+                        <li>Surveillance accrue des logs d'authentification</li>
+                    </ul>
+
+                    <p><strong>Liens :</strong></p>
+                    <a href="#" class="article-link">Lire l'article complet →</a>
+                </div>
+            </article>
+
+            <!-- Article 2 - EXEMPLE -->
+            <article class="veille-card">
+                <div class="veille-meta">
+                    <span class="veille-date">1 Février 2026</span>
+                    <span class="veille-category">Ransomware</span>
+                </div>
+                <h3>Nouvelle vague d'attaques LockBit 4.0 ciblant les PME</h3>
+                <div class="veille-content">
+                    <p><strong>Source :</strong> Bleeping Computer, ANSSI</p>
+                    
+                    <p><strong>Résumé :</strong></p>
+                    <p>
+                        Le groupe de ransomware LockBit a lancé une nouvelle campagne ciblant 
+                        spécifiquement les PME européennes avec une variante améliorée de leur malware. 
+                        Les attaques exploitent principalement des RDP mal sécurisés et des VPNs obsolètes.
+                    </p>
+
+                    <p><strong>Analyse :</strong></p>
+                    <p>
+                        Les PME sont souvent des cibles faciles car elles n'ont pas toujours les moyens 
+                        de mettre en place une cybersécurité robuste. Cette tendance souligne l'importance 
+                        de bonnes pratiques de base : mots de passe forts, authentification multi-facteurs, 
+                        sauvegardes régulières et isolées.
+                    </p>
+
+                    <p><strong>Recommandations :</strong></p>
+                    <ul>
+                        <li>Désactiver RDP sur Internet ou utiliser un VPN</li>
+                        <li>Implémenter l'authentification à deux facteurs (2FA)</li>
+                        <li>Maintenir des sauvegardes offline (règle 3-2-1)</li>
+                        <li>Former les utilisateurs à la détection de phishing</li>
+                        <li>Segmenter le réseau pour limiter la propagation</li>
+                    </ul>
+
+                    <p><strong>Liens :</strong></p>
+                    <a href="#" class="article-link">Lire l'article complet →</a>
+                </div>
+            </article>
+
+            <!-- Article 3 - EXEMPLE -->
+            <article class="veille-card">
+                <div class="veille-meta">
+                    <span class="veille-date">25 Janvier 2026</span>
+                    
+                </div>
+                <h3>ARP DNS spoofing</h3>
+                <div class="veille-content">
+                    <p><strong>Source :</strong> ANSSI — cert.ssi.gouv.fr | CVE MITRE — cve.org | NVD NIST — nvd.nist.gov | RFC 826 (ARP) | 
+RFC 4035 (DNSSEC) | The Hacker News — thehackernews.com | BleepingComputer — 
+bleepingcomputer.com | Kali Linux Documentation — kali.org/docs</p>
+                    
+                    <p><strong>Résumé :</strong></p>
+                    <p>
+                        Cette étude de faille technologique a permis de démontrer concrètement comment deux 
+vulnérabilités protocolaires anciennement connues — l'absence d'authentification ARP et 
+l'absence de signature DNS — peuvent être combinées pour réaliser une attaque Man-in-the
+Middle redoutable.  
+                         
+                        
+                    </p>
+
+                     <a href="Document/veille_techno_arp_dns_spoofing (1).pdf" class="btn btn-primary" download>
+                      📄 ARP DNS spoofing  (PDF)
+                    <p>
+                         
+                         
+                        
+                    </p>
+
+                </div>
+            </article>
+
+
+
+    <section class="veille-conclusion">
+        <div class="container">
+            <h2>💡 Bilan de ma veille</h2>
+            <p>
+                Cette veille technologique me permet de rester constamment informé des évolutions 
+                en cybersécurité. Elle enrichit mes compétences professionnelles et m'aide à 
+                anticiper les besoins futurs en matière de sécurité des infrastructures.
+            </p>
+            <p>
+                Je consacre environ 2 heures par semaine à cette veille, ce qui me permet de 
+                découvrir de nouveaux outils, comprendre les menaces émergentes et améliorer 
+                mes pratiques d'administration système.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Portfolio BTS SIO SISR. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
